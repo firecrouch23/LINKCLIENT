@@ -4,15 +4,13 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDSUViVZGzyINjYodV_60CcEt4uT-1DlXA",
-  authDomain: "linkproject4-2833b.firebaseapp.com",
-  projectId: "linkproject4-2833b",
-  storageBucket: "linkproject4-2833b.firebasestorage.app",
-  messagingSenderId: "367121973380",
-  appId: "1:367121973380:web:0bf2c9dbe941397961c2d1"
+  apiKey: "AIzaSyBRddFQYsaWXoujzG-9-V6xGsSaEUJjA2A",
+  authDomain: "linkproject5-b7aeb.firebaseapp.com",
+  projectId: "linkproject5-b7aeb",
+  storageBucket: "linkproject5-b7aeb.firebasestorage.app",
+  messagingSenderId: "514101061791",
+  appId: "1:514101061791:web:8ce82a0c4a949da12ddaaa"
 };
-
-
 
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
